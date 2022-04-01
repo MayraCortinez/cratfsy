@@ -1,0 +1,25 @@
+header {
+    background-color: var(--colorRojo);
+    display: flex;
+    flex-direction: column;
+}
+.header__menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu__usuarios{
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+}
+
+/*tablets*/
+@media (min-width:461px){
+    
+}
+
